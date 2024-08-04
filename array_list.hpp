@@ -8,7 +8,7 @@ private:
     unsigned int capacity_;
 
     void increase_capacity() {
-        capacity_ *= 2;
+        capacity_ *= 8;
         int* new_data = new int[capacity_];
         for (unsigned int i = 0; i < size_; ++i) {
             new_data[i] = data[i];
