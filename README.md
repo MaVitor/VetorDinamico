@@ -1,11 +1,9 @@
 # VetorDinamico
 Atividade avaliativa sobre Vetor Dinâmico da matéria de algoritmos
 
-Arquivos base para implementação de classes de 
-vetor dinâmico em C++. 
 Cada classe esta definida no arquivo 'classe.hpp'. 
 São 2 classes: 'array_list' e 'linked_list', 
-cada uma definida no respecivo arquivo, 
+cada uma definida no respectivo arquivo, 
 'array_list.hpp' e 'linked_list.cpp'.
 
 São fornecidos arquivos de teste básicos. Cada arquivo de 
