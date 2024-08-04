@@ -6,7 +6,7 @@ private:
     // Atributos
     struct int_node {
         int value;
-        struct int_node* next;
+        struct int_node* next;        
         struct int_node* prev;
     };
     int_node* head;
@@ -72,7 +72,7 @@ public:
         --this->size_;
         return true;
     }
-
+    // Remove um elemento de uma posição específica O(n)
     int get_at(unsigned int index) const {
         if (index >= this->size_) return -1;
         int_node* current = this->head;
