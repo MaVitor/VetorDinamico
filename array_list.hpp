@@ -8,7 +8,7 @@ private:
     unsigned int capacity_;
 
     void increase_capacity() {
-        capacity_ *= 2;
+        capacity_ += 100;
         int* new_data = new int[capacity_];
         for (unsigned int i = 0; i < size_; ++i) {
             new_data[i] = data[i];
@@ -19,9 +19,9 @@ private:
     // Aumenta a capacidade do array O(n)
 public:
     array_list(){
-        data = new int[8];
+        data = new int[100];
         size_ = 0;
-        capacity_ = 8;
+        capacity_ = 100;
     }
     // Construtor O(1)
     ~array_list() {
